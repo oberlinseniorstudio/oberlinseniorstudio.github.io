@@ -1,0 +1,29 @@
+#content, html, body {
+	font-family: helvetica;
+	height: 99%;
+	margin: 0px;
+	padding: 60px;
+  background-color: white;
+background-image: url('lasers.gif');
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+.name
+{
+  font-size: 40px;
+  font-family: helvetica-bold;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.entry
+{
+  /*border-width: 3px;
+  border-style: solid;
+  border-color: black;*/
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 30px;
+  /*background-color: lightgrey;*/
+}
