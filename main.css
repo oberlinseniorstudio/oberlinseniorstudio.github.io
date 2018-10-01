@@ -65,12 +65,24 @@ a:visited
   color: white; /* WebKit/Blink Browsers */
 }
 
+.post
+{
+  /*border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  padding: 12px;*/
+  margin-bottom: 20px;
+  color: white;
+  /*background-color: green;*/
+}
 
 
 .artworktitles
 {
-    color: black;
-    margin-bottom: 100px;
+    color: white;
+    font-weight: bold;
+    
+    
 }
 
 img {
@@ -102,7 +114,7 @@ id {
     float: left;
     padding: 40px;
     width: 50%;
-    background-color: yellow;
+    background-color: black;
     /*background-image: url('school.gif');
     background-size: cover;
     background-repeat: repeat;*/
@@ -117,7 +129,7 @@ id {
 
 .right-text
 {
-  color: black;
+  color: white;
   /*background-color: lime;*/
   padding: 10px;
 }
