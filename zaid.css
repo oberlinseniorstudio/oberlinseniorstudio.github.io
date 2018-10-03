@@ -1,6 +1,6 @@
 
 
-.zaid-content, body{
+.zaid-content {
   font-family: helvetica;
   height: 99%;
   margin: 0px;
@@ -18,14 +18,15 @@ a:link {
 
 .home
 {
-
+  font-family: helvetica;
   border-style: solid;
   border-color: black;
   border-width: 2px;
   padding: 5px;
-  top: 0;
+  top: 2rem;
   position: sticky;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 img {
@@ -41,6 +42,7 @@ img {
   font-family: helvetica-bold;
   margin-bottom: 20px;
   background-color: white;
+  margin-left: 40px;
 }
 
 .zaid-name
@@ -50,18 +52,28 @@ img {
   margin-bottom: 20px;
   margin-left: 10px;
   color: black;
+  margin-left: 40px;
+
 }
 
 
 
 .zaid-entry
 {
+  text-align: justify;
+  text-justify: inter-word;
+  
   padding: 20px;
  /* background-color: lime;*/
    background-image: linear-gradient(to right, lime , yellow);
-
+  margin-left: 40px;
   color: black;
   margin-bottom: 30px;
   margin-right: 700px;
-  text-align: justify;
+
+
+  /*text-justify: distribute;*/
+ /* word-spacing:-2px;*/
+ 
+
 }

@@ -11,12 +11,14 @@ a:link {
   border-color: black;
   border-width: 2px;
   padding: 5px;
+  top: 2rem;
   margin: 0px;
-  top: 0;
   position: sticky;
+  margin-left: 10px;
+  font-family: helvetica;
 }
 
-.thecontent, body{
+.thecontent {
   font-family: helvetica;
   height: 99%;
   margin: 0px;
@@ -33,7 +35,7 @@ a:link {
 {
   font-size: 40px;
   font-family: helvetica-bold;
-  margin-left: 10px;
+  margin-left: 45px;
   margin-bottom: 20px;
   background-color: white;
 }
