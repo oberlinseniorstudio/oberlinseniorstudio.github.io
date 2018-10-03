@@ -1,6 +1,6 @@
 
 
-.zaid-content {
+.zaid-content, body{
   font-family: helvetica;
   height: 99%;
   margin: 0px;
@@ -9,6 +9,23 @@
 /*background-image: url('lasers.gif');
     background-size: cover;
     background-repeat: repeat-x;*/
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.home
+{
+
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  top: 0;
+  position: sticky;
+  margin-top: 10px;
 }
 
 img {
@@ -31,6 +48,7 @@ img {
   font-size: 40px;
   font-family: helvetica-bold;
   margin-bottom: 20px;
+  margin-left: 10px;
   color: black;
 }
 
@@ -45,4 +63,5 @@ img {
   color: black;
   margin-bottom: 30px;
   margin-right: 700px;
+  text-align: justify;
 }
