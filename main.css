@@ -47,6 +47,11 @@ a:link {
   text-decoration: none;
 }
 
+a.right-text:link
+{
+  color: white;
+}
+
 a:hover
 {
   color: white;
@@ -128,6 +133,21 @@ id {
     //margin: 10px;
     box-sizing: border-box;
 
+}
+
+#date
+{
+  color: white;
+}
+
+a.right-link:link
+{
+  color: white;
+}
+
+a.right-link:hover
+{
+  color: red;
 }
 
 .right-text
